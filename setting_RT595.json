@@ -1,0 +1,59 @@
+{
+    "terminal.integrated.profiles.osx": {
+          "bash": {
+          "path": "bash",
+          "args": ["-l"],
+          "icon": "terminal-bash"
+          },
+          "zsh": {
+          "path": "zsh",
+          "args": ["-l"]
+          },
+          "fish": {
+          "path": "fish",
+          "args": ["-l"]
+          },
+          "tmux": {
+          "path": "tmux",
+          "icon": "terminal-tmux"
+          },
+          "pwsh": {
+          "path": "pwsh",
+          "icon": "terminal-powershell"
+          },
+          "rosetta": {
+            "path": "arch",
+            "args": ["-x86_64", "zsh", "-l"],
+            "overrideName": true
+          }
+      },
+      "security.workspace.trust.untrustedFiles": "open",
+      "editor.rulers": [
+        100
+      ],
+      "C_Cpp.dimInactiveRegions": false,
+      "cmake.configureOnOpen": true,
+      "editor.accessibilitySupport": "off",
+      "customWindowZoom.zoomLevelChangeValue": 0.7,
+      "window.zoomLevel": 0,
+      "cmake.sourceDirectory": "E:/Project/ZCom/Fossil/os/Third_Parties/BSP/NXP/SDK/boards/evkmimxrt595/cmsis_driver_examples/usart/interrupt_transfer/armgcc",
+      "cortex-debug.variableUseNaturalFormat": true,
+      "files.associations": {
+        "pah813x_reg_arr_8137_fsl_20230116.h": "c",
+        "array": "c",
+        "span": "c",
+        "string": "c",
+        "string_view": "c",
+        "vector": "c",
+        "iterator": "c",
+        "ratio": "cpp",
+        "pah813x_reg_arr_8137_fsl_20201118.h": "c",
+        "pah813x_config.h": "c",
+        "biometric_profile.pb-c.h": "c",
+        "protobuf-c.h": "c",
+        "xtree": "cpp",
+        "xstring": "cpp",
+        "xutility": "cpp",
+        "ble_msf_pairing.h": "c"
+      },
+  }
